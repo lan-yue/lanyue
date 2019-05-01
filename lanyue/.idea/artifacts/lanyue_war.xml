@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lanyue:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="lanyue-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="lanyue:war exploded" />
+    </root>
+  </artifact>
+</component>
