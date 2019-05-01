@@ -9,6 +9,5 @@ import tk.mybatis.spring.annotation.MapperScan;
 public class LanyueAppliction {
     public static void main(String[] args) {
         SpringApplication.run(LanyueAppliction.class);
- 
-   }
+    }
 }
