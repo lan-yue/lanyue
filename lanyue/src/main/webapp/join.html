@@ -59,8 +59,9 @@
     </div>
 		
 		<section class="ftco-section">
-    	<div class="container">
-			<div class=" intro ">
+    	<div class="container" id="sdiv">
+    	
+			<!-- <div class=" intro ">
 				<div class="row ">
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xl-6">
 						<h3>
@@ -76,6 +77,8 @@
 				<p>2．任职资格：男女不限，26周岁以上，有驾照优先；有市政工程，机电工程类销售经验；</p>
 				<p>3．非诚勿扰；</p>
 			</div>
+			
+	<hr style="border:1 dashed #987cb9" width="100%" color="#987cb9" size=1>
 
 			<div class=" intro ">
 				<div class="row ">
@@ -92,7 +95,7 @@
 				<p>1．负责销售内勤，配合销售主管完成相应任务；</p>
 				<p>2．任职资格：男女不限，26周岁以上，有驾照优先；有市政工程，机电工程类销售经验；</p>
 				<p>3．非诚勿扰；</p>
-			</div>
+			</div> -->
 		</div>
     </section>
 
@@ -159,5 +162,25 @@
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
     
+    <script type="text/javascript">
+		$(function () {
+            var url="/join";
+            var sdiv=$("#sdiv");
+            $.post(url,function (data) {
+                sdiv.html("");
+				for(i=0;i<data.length;i++){
+               		sdiv.append("<div class='intro'> <div class='row'> <div class='col-lg-6 col-md-6 col-sm-6 col-xl-6'> <h3>  <span>"+data[i].id+" &nbsp </span>"+data[i].post+"</h3> </div> <div class='col-lg-6 col-md-6 col-sm-6 col-xl-6'> <p>时间："+data[i].date+"</p> </div>" )
+					sdiv.append("<p>职位要求</p>")
+               		for(j=0;j<data[i].splitStr.length;j++){
+               			var k =j+1;
+						sdiv.append(" <p>"+k +"、"+data[i].splitStr[j]+"; </p> </div>")
+					}
+					sdiv.append("<hr style='border:1 dashed #987cb9' width='100%' color='#987cb9' size=1>")
+					
+				}
+			})
+			footer();
+        })
+	</script>
   </body>
 </html>
