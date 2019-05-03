@@ -20,4 +20,42 @@ public class NewPojo {
     private Date newDate;
     @Transient
     private String date;
+	public Integer getNewId() {
+		return newId;
+	}
+	public void setNewId(Integer newId) {
+		this.newId = newId;
+	}
+	public String getNewTitle() {
+		return newTitle;
+	}
+	public void setNewTitle(String newTitle) {
+		this.newTitle = newTitle;
+	}
+	public String getNewSubcontent() {
+		return newSubcontent;
+	}
+	public void setNewSubcontent(String newSubcontent) {
+		this.newSubcontent = newSubcontent;
+	}
+	public String getNewContent() {
+		return newContent;
+	}
+	public void setNewContent(String newContent) {
+		this.newContent = newContent;
+	}
+	public Date getNewDate() {
+		return newDate;
+	}
+	public void setNewDate(Date newDate) {
+		this.newDate = newDate;
+	}
+	public String getDate() {
+		return date;
+	}
+	public void setDate(String date) {
+		this.date = date;
+	}
+    
+    
 }
