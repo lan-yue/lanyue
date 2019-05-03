@@ -13,73 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="NewsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/service/serviceImpl/NewsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/service/NewsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/vo/PageResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/web/NewsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/news.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="165" column="86" lean-forward="false" selection-start-line="165" selection-start-column="86" selection-end-line="165" selection-end-column="86" />
-              <folding>
-                <marker date="1556880442818" expanded="true" signature="7526:7542" ph="..." />
-                <marker date="1556880442818" expanded="true" signature="7587:7603" ph="..." />
-                <marker date="1556880442818" expanded="true" signature="7645:7659" ph="..." />
-                <marker date="1556880442818" expanded="true" signature="7741:7757" ph="..." />
-                <marker date="1556880442818" expanded="true" signature="7932:7936" ph="&amp;lt;" />
-                <marker date="1556880442818" expanded="true" signature="8163:8167" ph="&amp;lt;" />
-                <marker date="1556880442818" expanded="true" signature="8876:8880" ph="&amp;gt;" />
-                <marker date="1556880442818" expanded="true" signature="9120:9124" ph="&amp;gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NewPojo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/pojo/NewPojo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,21 +26,113 @@
       <file leaf-file-name="newContent.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/newContent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="3243">
               <caret line="141" column="49" lean-forward="false" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productCase.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="productCase.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/productCase.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="79" column="84" lean-forward="false" selection-start-line="79" selection-start-column="68" selection-end-line="79" selection-end-column="84" />
+            <state relative-caret-position="276">
+              <caret line="90" column="7" lean-forward="false" selection-start-line="90" selection-start-column="7" selection-end-line="127" selection-end-column="17" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1556806580519" expanded="true" signature="8422:8535" ph="..." />
                 <marker date="1556806580519" expanded="true" signature="8958:8999" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footerJs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/footerJs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="210" lean-forward="false" selection-start-line="10" selection-start-column="210" selection-end-line="10" selection-end-column="210" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutUs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/pojo/AboutUs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutUsMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/mapper/AboutUsMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutUsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/web/AboutUsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aboutUs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/aboutUs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="150" column="13" lean-forward="false" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+              <folding>
+                <marker date="1556899396274" expanded="true" signature="8020:8026" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8026:8032" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8032:8038" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8038:8044" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8044:8050" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8050:8056" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8059:8065" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8134:8140" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8140:8146" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8146:8152" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8152:8158" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8158:8164" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8164:8170" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8173:8179" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8246:8252" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8252:8258" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8258:8264" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8264:8270" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8270:8276" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8276:8282" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8285:8291" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8361:8367" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8367:8373" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8373:8379" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8379:8385" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8385:8391" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8391:8397" ph="&amp;nbsp;" />
+                <marker date="1556899396274" expanded="true" signature="8400:8406" ph="&amp;nbsp;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="join.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/join.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="160" column="27" lean-forward="false" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="27" />
+              <folding>
+                <marker date="1556899457702" expanded="true" signature="7714:7737" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,21 +142,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/pojo/ProductCase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="29" />
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="29" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/productList.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="153" column="5" lean-forward="false" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="43" />
-              <folding>
-                <marker date="1556801449979" expanded="true" signature="6872:6985" ph="..." />
-                <marker date="1556801449979" expanded="true" signature="7434:7474" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -166,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lanyue/pojo/AboutUs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lanyue/service/AboutService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lanyue/service/serviceImpl/AboutServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/footerJs.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/lanyue/mapper/ProductMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lanyue/web/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lanyue/service/ProductService.java" />
@@ -184,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lanyue/pojo/ProductCase.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/productCase.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/lanyue/pojo/JoinPojo.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/join.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/lanyue/mapper/NewMapper.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/productList.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/lanyue/vo/PageResult.java" />
@@ -195,6 +205,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lanyue/service/NewsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lanyue/service/serviceImpl/NewsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/newContent.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/footerJs.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/aboutUs.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/join.html" />
       </list>
     </option>
   </component>
@@ -239,6 +252,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -319,6 +333,14 @@
               <item name="lanyue" type="b2602c69:ProjectViewProjectNode" />
               <item name="lanyue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lanyue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lanyue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -332,7 +354,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,18 +570,18 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2647059" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24678111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -610,33 +631,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap-datepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-3.2.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.easing.1.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1242">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7038">
@@ -709,16 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/pojo/AboutUs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -766,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/footerJs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -812,9 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,16 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/join.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="179" column="17" lean-forward="false" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
-          <folding>
-            <marker date="1556811918125" expanded="true" signature="7263:7286" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -902,35 +866,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/vo/PageResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="31" />
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/pageJs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/pageJs.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1846">
           <caret line="140" column="19" lean-forward="false" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
-          <folding>
-            <marker date="1556802644932" expanded="true" signature="6196:6235" ph="..." />
-            <marker date="1556802644932" expanded="true" signature="6629:6668" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/productList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
+        <state relative-caret-position="3519">
           <caret line="153" column="5" lean-forward="false" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="43" />
           <folding>
             <marker date="1556801449979" expanded="true" signature="6872:6985" ph="..." />
@@ -941,7 +894,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
+        <state relative-caret-position="3795">
           <caret line="165" column="86" lean-forward="false" selection-start-line="165" selection-start-column="86" selection-end-line="165" selection-end-column="86" />
           <folding>
             <marker date="1556880442818" expanded="true" signature="7526:7542" ph="..." />
@@ -956,17 +909,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/pojo/NewContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/pojo/NewContent.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/web/NewsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="368">
           <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -976,8 +922,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/service/NewsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="207">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -986,7 +932,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/service/serviceImpl/NewsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="690">
           <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1004,7 +950,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/newContent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="3243">
           <caret line="141" column="49" lean-forward="false" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
           <folding />
         </state>
@@ -1013,18 +959,98 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/pojo/ProductCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="29" />
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/web/AboutUsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/footerJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="210" lean-forward="false" selection-start-line="10" selection-start-column="210" selection-end-line="10" selection-end-column="210" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/mapper/AboutUsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lanyue/pojo/AboutUs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/productCase.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="79" column="84" lean-forward="false" selection-start-line="79" selection-start-column="68" selection-end-line="79" selection-end-column="84" />
+        <state relative-caret-position="276">
+          <caret line="90" column="7" lean-forward="false" selection-start-line="90" selection-start-column="7" selection-end-line="127" selection-end-column="17" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1556806580519" expanded="true" signature="8422:8535" ph="..." />
             <marker date="1556806580519" expanded="true" signature="8958:8999" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/aboutUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="150" column="13" lean-forward="false" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+          <folding>
+            <marker date="1556899396274" expanded="true" signature="8020:8026" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8026:8032" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8032:8038" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8038:8044" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8044:8050" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8050:8056" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8059:8065" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8134:8140" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8140:8146" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8146:8152" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8152:8158" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8158:8164" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8164:8170" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8173:8179" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8246:8252" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8252:8258" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8258:8264" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8264:8270" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8270:8276" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8276:8282" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8285:8291" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8361:8367" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8367:8373" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8373:8379" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8379:8385" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8385:8391" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8391:8397" ph="&amp;nbsp;" />
+            <marker date="1556899396274" expanded="true" signature="8400:8406" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/join.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="160" column="27" lean-forward="false" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="27" />
+          <folding>
+            <marker date="1556899457702" expanded="true" signature="7714:7737" ph="..." />
           </folding>
         </state>
       </provider>

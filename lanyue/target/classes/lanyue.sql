@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50625
 File Encoding         : 65001
 
-Date: 2019-05-02 23:15:40
+Date: 2019-05-03 23:49:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -31,6 +31,24 @@ CREATE TABLE `about` (
 -- Records of about
 -- ----------------------------
 INSERT INTO `about` VALUES ('1', '成都市锦江区大业路6号1栋3单元7层715号', '11111111111', '11111@ww.com');
+
+-- ----------------------------
+-- Table structure for `aboutus`
+-- ----------------------------
+DROP TABLE IF EXISTS `aboutus`;
+CREATE TABLE `aboutus` (
+  `id` varchar(20) NOT NULL DEFAULT '' COMMENT '主键',
+  `address` varchar(200) DEFAULT NULL COMMENT '地址',
+  `tel` varchar(20) DEFAULT NULL COMMENT '座机电话',
+  `phone` varchar(20) DEFAULT NULL COMMENT '手机电话',
+  `email` varchar(20) DEFAULT NULL COMMENT '邮箱',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of aboutus
+-- ----------------------------
+INSERT INTO `aboutus` VALUES ('1', '四川 成都市 高新区 天府大道 3号', '028-8888888', '13332123122', ' lanyue@126.com');
 
 -- ----------------------------
 -- Table structure for `cooperative`
@@ -126,5 +144,6 @@ CREATE TABLE `t_join` (
 -- ----------------------------
 -- Records of t_join
 -- ----------------------------
-INSERT INTO `t_join` VALUES ('1', '招聘销售', '负责销售内勤，配合销售主管完成相应任务;任职资格：男女不限，26周岁以上，有驾照优先;有市政工程，机电工程类销售经验；非诚勿扰;', '2019-05-02');
-INSERT INTO `t_join` VALUES ('2', '招聘销售助理', '负责销售内勤，配合销售主管完成相应任务;任职资格：男女不限，26周岁以上，有驾照优先;有市政工程，机电工程类销售经验；非诚勿扰;', '2019-05-02');
+INSERT INTO `t_join` VALUES ('1', '招聘销售', '负责销售内勤，配合销售主管完成相应任务;男女不限，26周岁以上，有驾照优先;有市政工程，机电工程类销售经验；非诚勿扰;', '2019-05-02');
+INSERT INTO `t_join` VALUES ('2', '招聘销售助理', '负责销售内勤，配合销售主管完成相应任务;男女不限，26周岁以上，有驾照优先;有市政工程，机电工程类销售经验；非诚勿扰;', '2019-05-02');
+INSERT INTO `t_join` VALUES ('3', '招聘销售助理3', '负责销售内勤，配合销售主管完成相应任务;男女不限，26周岁以上', '2019-05-06');
