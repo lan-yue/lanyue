@@ -51,34 +51,38 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-9 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Blog</span></p>
-            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Tips &amp; Articles</h1>
+            <!--<p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Blog</span></p>-->
+            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">联系我们</h1>
           </div>
         </div>
       </div>
     </div>
 
      <section class="ftco-section contact-section ftco-degree-bg">
-      <div class="container">
-        <div class="row d-flex mb-5 contact-info">
-          <div class="col-md-12 mb-4">
-            <h2 class="h4">Contact Information</h2>
+    
+    <div class="container">
+        <div class="row d-flex mb-5 contact-info ">
+          <div class="">
+            <h2 class="h4">联系方式</h2>
           </div>
           <div class="w-100"></div>
-          <div class="col-md-3">
-            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+          <div class="" id="address">
+           <!-- <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址:&nbsp;</span >四川 成都市 高新区 天府大道 3号</p> -->
           </div>
-          <div class="col-md-3">
-            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+          <div class="w-100"></div>
+          <div class="" id="tel">
+            <!-- <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话:&nbsp;</span id="tel"> 028-8888888</p> -->
           </div>
-          <div class="col-md-3">
-            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+          <div class="w-100"></div>
+          <div class="" id="phone">
+           <!--  <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手机:&nbsp;</span id="phone">133 1232 3421</p> -->
           </div>
-          <div class="col-md-3">
-            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+          <div class="w-100"></div>
+          <div class="" id="email">
+            <!-- <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱:&nbsp;</span id="email"> lanyue@126.com</p> -->
           </div>
         </div>
-        <div class="row block-9">
+       <!--  <div class="row block-9">
           <div class="col-md-6 order-md-last pr-md-5">
             <form action="#">
               <div class="form-group">
@@ -98,7 +102,7 @@
               </div>
             </form>
           
-          </div>
+          </div> -->
 
           <div class="col-md-6">
           	<div id="map"></div>
@@ -169,6 +173,21 @@
 
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+    <script type="text/javascript">
+		$(function () {
+            var url="/aboutUs";
+            var address =$("#address");
+            var tel =$("#tel");
+            var phone =$("#phone");
+            var email =$("#email");
+            $.post(url,function (data) {
+                address.append("<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址:&nbsp;</span >"+data.address+"</p>")
+                tel.append(" <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话:&nbsp;</span >"+data.tel+"</p>")
+                 phone.append("<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手机:&nbsp;</span >"+data.phone+"</p>")
+                  email.append("<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱:&nbsp;</span > "+data.email+"</p>")
+			})
+			footer();
+        })
+	</script>
   </body>
 </html>

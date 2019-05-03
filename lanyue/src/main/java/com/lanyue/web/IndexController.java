@@ -3,7 +3,7 @@ package com.lanyue.web;
 import com.lanyue.pojo.AboutUs;
 import com.lanyue.pojo.Cooperative;
 import com.lanyue.pojo.Employee;
-import com.lanyue.service.AboutService;
+import com.lanyue.service.AboutUsService;
 import com.lanyue.service.CooperativeService;
 import com.lanyue.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,7 @@ public class IndexController {
     @Autowired
     private CooperativeService cooperativeService;
     @Autowired
-    private AboutService aboutService;
+    private AboutUsService aboutService;
     @RequestMapping("/index")
     public ResponseEntity<List<Employee>> index(){
         List<Employee> list=employeeService.findEmployeeByIndex();
