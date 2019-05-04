@@ -5,33 +5,27 @@ import javax.persistence.Table;
 
 import tk.mybatis.mapper.annotation.KeySql;
 
-@Table(name = "aboutUs")
-public class AboutUs {
+@Table(name = "customer")
+public class CustomerPojo {
     @Id
     @KeySql(useGeneratedKeys = true)
     private Integer id;
-    private String address;
-    private String tel;
+    private String name;
     private String phone;
     private String email;
-    private String type;
+    private String massage;
 	public Integer getId() {
 		return id;
 	}
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	public String getAddress() {
-		return address;
+	
+	public String getName() {
+		return name;
 	}
-	public void setAddress(String address) {
-		this.address = address;
-	}
-	public String getTel() {
-		return tel;
-	}
-	public void setTel(String tel) {
-		this.tel = tel;
+	public void setName(String name) {
+		this.name = name;
 	}
 	public String getPhone() {
 		return phone;
@@ -45,11 +39,16 @@ public class AboutUs {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public String getType() {
-		return type;
+	public String getMassage() {
+		return massage;
 	}
-	public void setType(String type) {
-		this.type = type;
+	public void setMassage(String massage) {
+		this.massage = massage;
 	}
-    
+	@Override
+	public String toString() {
+		return "CustomerPojo [id=" + id + ", name=" + name + ", phone=" + phone + ", email=" + email + ", massage="
+				+ massage + "]";
+	}
+	
 }

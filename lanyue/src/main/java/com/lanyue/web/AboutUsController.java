@@ -22,4 +22,5 @@ public class AboutUsController {
 		AboutUs aboutUs = sboutUsService.findById(1);
 		return ResponseEntity.ok(aboutUs);
 	}
+	
 }

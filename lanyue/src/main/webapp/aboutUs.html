@@ -66,47 +66,42 @@
             <h2 class="h4">联系方式</h2>
           </div>
           <div class="w-100"></div>
-          <div class="" id="address">
-           <!-- <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址:&nbsp;</span >四川 成都市 高新区 天府大道 3号</p> -->
+          <div class="" id="address_f">
           </div>
           <div class="w-100"></div>
-          <div class="" id="tel">
-            <!-- <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话:&nbsp;</span id="tel"> 028-8888888</p> -->
+          <div class="" id="tel_f">
           </div>
           <div class="w-100"></div>
-          <div class="" id="phone">
-           <!--  <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手机:&nbsp;</span id="phone">133 1232 3421</p> -->
+          <div class="" id="phone_f">
           </div>
           <div class="w-100"></div>
-          <div class="" id="email">
-            <!-- <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱:&nbsp;</span id="email"> lanyue@126.com</p> -->
+          <div class="" id="email_f">
           </div>
         </div>
-       <!--  <div class="row block-9">
+       <div class="row block-9">
           <div class="col-md-6 order-md-last pr-md-5">
-            <form action="#">
+            <form action="/addCustomer" method="post">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="text" class="form-control" placeholder="请填写你的姓名" id="name">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+                <input type="text" class="form-control" placeholder="请填写你的邮箱" id="email">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="text" class="form-control" placeholder="请填写你的电话" id="phone">
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="请填写留言" id="massage"></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                <input type="submit" value="提交留言" class="btn btn-primary py-3 px-5">
               </div>
             </form>
           
-          </div> -->
-
-          <!-- <div class="col-md-6">
+          </div>
+           <div class="col-md-6">
           	<div id="map"></div>
-          </div> -->
+          </div> 
         </div>
       </div>
     </section>
@@ -176,10 +171,10 @@
     <script type="text/javascript">
 		$(function () {
             var url="/aboutUs";
-            var address =$("#address");
-            var tel =$("#tel");
-            var phone =$("#phone");
-            var email =$("#email");
+            var address =$("#address_f");
+            var tel =$("#tel_f");
+            var phone =$("#phone_f");
+            var email =$("#email_f");
             $.post(url,function (data) {
                 address.append("<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址:&nbsp;</span >"+data.address+"</p>")
                 tel.append(" <p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话:&nbsp;</span >"+data.tel+"</p>")

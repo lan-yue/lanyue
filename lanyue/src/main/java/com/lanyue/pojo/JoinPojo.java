@@ -9,15 +9,16 @@ import tk.mybatis.mapper.annotation.KeySql;
 public class JoinPojo {
 	@Id
     @KeySql(useGeneratedKeys = true)
-	private String id;
+	private Integer id;
 	private String post;
 	private String message;
 	private String date;
 	private String[] splitStr;
-	public String getId() {
+	
+	public Integer getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getPost() {
